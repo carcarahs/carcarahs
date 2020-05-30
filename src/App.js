@@ -7,6 +7,10 @@ function App() {
       <Section>
         <h1>Olá Mundo Carcará Hackspace</h1>
       </Section>
+
+      <Section style={{ backgroundColor: "#f2f2f2" }}>
+        <h1>Aqui vem o sobre</h1>
+      </Section>
     </div>
   );
 }
