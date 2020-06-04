@@ -1,8 +1,14 @@
 import React from 'react';
-import Section from './components/Section';
+import Cover from './views/Cover';
+import Projects from './views/Projects';
 
 function App() {
-  return <div className="App"></div>;
+  return (
+    <div className="App">
+      <Cover />
+      <Projects />
+    </div>
+  );
 }
 
 export default App;

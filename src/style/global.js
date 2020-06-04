@@ -1,3 +1,9 @@
+import { createGlobalStyle } from 'styled-components';
+
+const GlobalStyle = createGlobalStyle`
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
 *,
 *::before,
 *::after {
@@ -19,3 +25,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+`;
+
+export default GlobalStyle;

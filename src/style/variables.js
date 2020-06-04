@@ -15,6 +15,8 @@ export const COLORS = {
 export const METRICS = {
   $font_small: '14px',
   $height_small: '25px',
+
+  $padding: '1rem',
 };
 
 // Constante de cores aplicadas em contextos
