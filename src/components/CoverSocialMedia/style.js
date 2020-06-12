@@ -3,6 +3,7 @@ import { STYLE_CONTEXT, METRICS } from '../../style/variables';
 
 export const Container = styled.div`
   display: flex;
+  margin-top: 50px;
   width: 350px;
   height: 100px;
 

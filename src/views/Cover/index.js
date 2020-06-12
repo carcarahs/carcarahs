@@ -1,8 +1,8 @@
 import React from 'react';
 
+import { COLORS } from '../../style/variables';
 import Section from '../../components/Section';
 import CoverSocialMedia from '../../components/CoverSocialMedia';
-import { COLORS } from '../../style/variables';
 
 import { Container } from './style';
 

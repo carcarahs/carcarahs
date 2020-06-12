@@ -2,7 +2,8 @@ import { createGlobalStyle } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+/** Usar um react-helmet */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700,800&display=swap');
 
 *,
 *::before,
@@ -24,6 +25,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+a {
+  text-decoration: none;
 }
 
 `;
